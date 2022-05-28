@@ -1,0 +1,9 @@
+/.idea/
+/dags/*
+!/dags/.gitkeep
+/data/*
+!/data/.gitkeep
+/logs/*
+!/logs/.gitkeep
+/plugins/*
+!/plugins/.gitkeep
