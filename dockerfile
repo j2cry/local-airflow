@@ -6,5 +6,5 @@ RUN apt-get update \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 USER airflow
-RUN pip install --no-cache-dir apache-airflow-providers-apache-spark
+RUN pip install --no-cache-dir pyspark==3.2.0 apache-airflow-providers-apache-spark==2.1.3
 ENV PYTHONPATH "${PYTHONPATH}:${AIRFLOW_HOME}"
