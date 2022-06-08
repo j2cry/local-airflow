@@ -7,3 +7,5 @@
 !/logs/.gitkeep
 /plugins/*
 !/plugins/.gitkeep
+/packages/*
+!/packages/.gitkeep
